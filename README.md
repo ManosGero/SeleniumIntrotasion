@@ -1,5 +1,5 @@
-# SeleniumIntrotasion, /n
-Testing using maven selenium-java and Testng /n
-run Webdrivers for Edge, Firefox and Chrome browsers. /n
-practices with Locators /n
+# SeleniumIntrotasion,  \n
+Testing using maven selenium-java and Testng 
+run Webdrivers for Edge, Firefox and Chrome browsers. 
+practices with Locators 
 Testing a Logine Page
