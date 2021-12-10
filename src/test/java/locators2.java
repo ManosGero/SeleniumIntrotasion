@@ -7,7 +7,7 @@ import org.testng.Assert;
 public class locators2 {
     public static void main(String[] args) {
         // login page testing :  https://www.rahulshettyacademy.com/locatorspractice/
-        //first Login Page  Testing using maven selenium-java and testng
+        //first Login Page  Testing using maven selenium-java and Testng
         //initialize WebDriver
 
         WebDriverManager.firefoxdriver().setup();
@@ -41,7 +41,7 @@ public class locators2 {
         driver.close();
     }
 
-    public static String getPass(WebDriver driver) {
+    private static String getPass(WebDriver driver) {
 
         driver.findElement(By.linkText("Forgot your password?")).click();
         try {

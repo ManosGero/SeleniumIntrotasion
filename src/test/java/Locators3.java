@@ -10,7 +10,8 @@ public class Locators3 {
 
         driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 
-        System.out.println(driver.findElement(By.xpath("//div[1]//button//following-sibling::button[1]")).getText());
+        System.out.println(driver.findElement(By.xpath("//header//div//button[1]//following-sibling::button[1]")).getText());
+        System.out.println(driver.findElement(By.xpath("//header//div//button[1]//parent::div//button[2]")).getText());
 
 
         driver.close();
